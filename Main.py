@@ -1,3 +1,4 @@
+from MediaSalas import mediaSalas
 def main():
     nomeEscola = input("Digite o nome da escola: ")
 
@@ -21,11 +22,11 @@ def main():
         nomeSalas[i] = nomeSala
 
         while quantidadeAlunos <= 0:
-            quantidadeAlunos = int ( input ("Digite a quantidade de alunos desta sala"))
+            quantidadeAlunos = int ( input ("Digite a quantidade de alunos desta sala: "))
             if quantidadeAlunos <=0:
                 print("Número inválido, digite novamente")
         
-
+        mediaSalas(quantidadeAlunos)
         i+=1
 
         
