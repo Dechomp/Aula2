@@ -12,7 +12,7 @@ def mediaAluno():
 
         i += 1
     
-    media /= 4
+    media /= i
 
     return media
 
